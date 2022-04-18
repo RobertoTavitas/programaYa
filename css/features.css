@@ -1,0 +1,41 @@
+#features .container {
+    text-align: left;
+    padding: 150px 12px;
+}
+
+#features ul {
+    padding: 0;
+}
+
+#features li {
+    margin: 15px 0;
+    font-weight: bold;
+    padding-left: 45px;
+}
+
+@media (min-width: 720px) {
+    #features {
+        background-image: url(../assets/background-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: 90% 50%;
+    }
+
+    #features .container {
+        text-align: initial;
+    }
+
+    #features ul {
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 760px) {
+    #features {
+        background-size: 400px 400px;
+    }
+
+    #features ul {
+        margin-left: 0px;
+    }
+}
